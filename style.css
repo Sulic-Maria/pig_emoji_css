@@ -1,0 +1,112 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.head {
+  background-color: pink;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  border: 15px solid;
+}
+
+.eyeleft {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  top: 150px;
+  bottom: 300px;
+  left: 350px;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.pupilleft {
+  background-color: black;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: relative;
+  top: 37px;
+  left: 37px;
+  bottom: 37px;
+}
+
+.eyeright {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  top: 0.5px;
+  bottom: 100px;
+  left: 76px;
+  border-radius: 50%;
+  border: 5px solid black;
+  position: relative;
+}
+
+.pupilright {
+  background-color: black;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  top: 37px;
+  left: 37px;
+  bottom: 37px;
+  position: relative;
+}
+.earleft {
+  background-color: pink;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  border: 15px solid black;
+  z-index: -1;
+}
+
+.earright {
+  background-color: pink;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  border: 15px solid black;
+  top: 520px;
+  right: 520px;
+  left: 450px;
+  z-index: -1;
+}
+
+.mouth {
+  background-color: rgb(246, 107, 142);
+  height: 120px;
+  width: 280px;
+  border-radius: 30%;
+  position: relative;
+  left: 160px;
+  top: 50px;
+  border: 5px solid;
+}
+
+.noseleft {
+  background-color: black;
+  height: 60px;
+  width: 50px;
+  border-radius: 70%;
+  position: absolute;
+  top: 30px;
+  left: 35px;
+}
+
+.noseright {
+  background-color: black;
+  height: 60px;
+  width: 50px;
+  border-radius: 70%;
+  position: absolute;
+  top: 30px;
+  left: 190px;
+}
